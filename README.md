@@ -3,7 +3,7 @@
 "Keep Safe" is a functional prototype demonstrating a modern safety application for personal and road use. The primary goal is to provide immediate, intuitive alerts to users, warning them as they approach areas with known risks.
 
 - This demo simulates a mobile experience in the browser, using a React frontend to capture live location data and a Node.js/Express backend to serve as the "safety intelligence" hub. The backend maintains a list of geofenced danger zones (defined by coordinates and a radius). When the frontend sends the user's current coordinates, the backend calculates their proximity to these zones.
-![keep safe Screenshot](.frontened/src/weather.png)
+![keep safe Screenshot](.frontened/src/keep.png)
 The user interface is designed for clarity and immediacy:
 
     - Green/Safe: Default state, indicating no immediate threats.
